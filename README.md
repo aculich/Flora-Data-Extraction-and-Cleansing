@@ -4,7 +4,20 @@ Run this code on: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybin
 
 See also old repo: https://github.com/aculich/extract-flora
 
-## Notes
+## How to run
+
+First download the PDF files as `flora-book-01.pdf`, `flora-book-02.pdf`, `flora-book-03.pdf`.
+
+Then extract the csv files and run the cleaning scripts:
+
+```
+python extract-flora-data-from-flora-pdf-files.py
+python data-cleansing-of-extracted-flora-data.py
+python data-cleansing-of-extracted-flora-data-Syria.py
+
+```
+
+## Installation Notes
 
 ### Fix error: ModuleNotFoundError: No module named 'frontend'
 
