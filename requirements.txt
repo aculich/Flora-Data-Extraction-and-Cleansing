@@ -1,4 +1,4 @@
 pyresparser
 fitz
-PyMuPDF
+PyMuPDF==1.16.14
 pypdf2
